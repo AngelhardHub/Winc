@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+   <head>
+    
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+        
+    	<title>Welke afslag waar???</title>
+    </head>
+    <header class="header_contact">
+        <h1>Contactformulier</h1>
+        <p> Klik <a href="index.html">hier</a> om terug naar huis te keren.</p>
+    </header>
+    <main>
+    <div class="formcontainer">
+    <form name="contact" method="POST" data-netlify="true">
+
+        <input class="name" type="text" value="naam" name="naam">
+        <input class="surname"type="text" value="achternaam" name="achternaam">
+        <input class="telefoonnummer" type="tel" value="telefoonnummer" name="telefoonnummer">
+        <input class="email" type="email" value="email" name="email">
+        <div class="leeftijdduo">
+        <label class="leeftijdtekst">leeftijd:</label>
+        <input class="leeftijd" type="number" value="leeftijd" name="leeftijd">
+         </div> 
+
+        <div class="geboortedatumduo">
+        <label >geboortedatum:</label>   
+        <input class="geboortedatum" type="date" value="geboortedatum" name="geboortedatum">
+        </div>
+
+        <div class="geslacht">
+        <label>geslacht:</label>
+         <label class="vrouw">vrouw <input type="radio" name="sekse"> </label>
+        <label class="man">man <input type="radio" name="sekse" /></label>
+    </div>
+        
+        <div class="keuken">
+        <label>Keuken:</label>
+        <label class="frans">frans <input  type="checkbox" name="frans"> </label>
+        <label class="italiaans">italiaans <input type="checkbox" name="italiaans"> </label>
+        <label class="spaans">spaans <input type="checkbox" name="spaans"> </label>
+        <label class="arabisch">arabisch <input type="checkbox" name="arabisch"> </label>
+        </div>
+
+        <input class="colorpicke" type="colorpicke" value="favoriete schortkleur" name="Favoriete_schortkleur">
+        
+        <textarea class="texterea" rows="10" cols="10" name="biografie">biografie</textarea>
+      <label class="upload1">upload hier je recept:  <input class="upload2" type="file" name="recept_uploaden"></label>
+        
+      <button class="reset" type="reset">resetten</button>
+      <button class="submit" type="submit">versturen</button>
+        
+    </form>
+    </div>
+</main>
+ </body>
+
+</html>

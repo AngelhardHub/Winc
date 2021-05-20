@@ -1,0 +1,489 @@
+body {
+    font-style:initial;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2vw;
+    background-color: rgb(247, 243, 223);
+    color:rgb(223, 104, 104);
+    border: 5px solid;
+    margin: 5%;
+    
+} 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+  
+
+
+
+
+.variabele + p em{
+    color:#4f8bc9;
+    font-style: normal;
+}
+
+
+.ab {
+    text-decoration: underline;
+}
+
+li.nmmreen, h2.nmmreen {
+    color:rgba(139, 20, 20, 0.87);
+}
+
+li.nmmreen {
+    font-weight: bold;
+
+}
+
+a, nav + h6 em, address + p em{
+    color:rgb(175, 12, 12)  
+}
+
+.header_style{
+    border-bottom: 5px solid rgb(223, 104, 104) ;
+}
+.header_style p, .ab{
+  text-align: center;
+  padding-left: 70px;
+  padding-right:70px;
+
+}
+
+
+.hh61{
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 50px;
+    text-align: left;
+    font-size:1vw;
+    
+}
+
+header, figure{
+    text-align: center;
+   
+}
+
+.header_door{
+    text-align: center;
+    font-size: 1vw;
+}
+
+
+
+section, aside {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.conclusie{
+    padding-left:20px;
+    padding-right:10px;
+}
+
+aside{
+    padding: 20px;
+}
+    
+    
+
+footer.footer{
+    color:rgb(47, 31, 139); 
+    font-size: 2vw;
+    font-family: 'Original Surfer', cursive;
+    text-align: left;
+    border-top: 5px solid rgb(223, 104, 104);
+    padding-top: 5px
+
+}
+
+
+
+footer.about{
+   margin: 0;
+   padding: 0;
+    font-family: 'Original Surfer', cursive;
+    text-align: left;
+    font-size: 2vw;
+   border-top: 5px solid rgb(223, 104, 104);
+}
+
+
+
+.li1:hover, .li2:hover, .li1 a:hover, .li2 > a:hover, aside a:hover, address a:hover{
+    color :rgb(241, 148, 172);
+    font-size: 2vw;
+}
+
+
+footer > h6 {
+    margin: 0;
+    padding: 0;
+    padding-left: 20px ;
+    padding-right: 20px ;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.left{
+    font-size: 1vw;
+}
+
+footer > nav > ul, ul.test{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+
+
+ul.test > li > a{
+    text-decoration: none;
+}
+
+ .inline li {
+    display: inline;
+    padding-right: 10px;
+
+ } 
+.inline li a{
+    text-decoration: none;
+  
+}
+
+.header_contact{ 
+  
+    border-bottom: 1px solid rgb(223, 104, 104);
+}
+.formcontainer{
+   
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+
+}
+
+
+.name,.surname,.telefoonnummer, .colorpicke, .upload1, .email{
+    display: block;
+    width: 400px;
+    padding:2px 5px;
+    margin-bottom: 5px;
+    border: 2px coral solid;
+    color:rgb(233, 155, 127);
+    
+}
+    
+
+
+.leeftijdduo{
+    position: relative;
+ 
+}
+
+.leeftijdduo > label{
+    float:left;
+    width:30%;
+    max-width: 400px;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: rgb(247, 243, 223);
+    padding:2px 5px;
+    margin-bottom: 5px;
+    border: 2px coral solid;
+    color:rgb(233, 155, 127);
+    
+    
+}
+
+    .leeftijd{
+        
+        float: right;
+        width: 65%;
+        max-width: 400px;
+        box-sizing: border-box;
+        padding:2px 5px;
+        margin-bottom: 5px;
+        border: 2px coral solid;
+        color:rgb(233, 155, 127);
+        
+}
+
+.geboortedatumduo{
+    clear: both;
+    position: relative;
+ 
+}
+
+.geboortedatumduo > label{
+    float:left;
+    width:30%;
+    max-width: 400px;
+    box-sizing: border-box;
+    text-align: left;
+    padding:2px 5px;
+    margin-bottom: 5px;
+    border: 2px coral solid;
+    color:rgb(233, 155, 127);
+}
+
+.geboortedatum{
+    float: right;
+    width: 65%;
+    max-width: 400px;
+    box-sizing: border-box;
+    padding:2px 5px;
+    margin-bottom: 5px;
+    border: 2px coral solid;
+    color:rgb(233, 155, 127);
+}
+
+.geslacht{
+    clear:both;
+    display: block;
+    width: 400px;
+    padding:2px 5px;
+    margin-bottom: 5px;
+    border: 2px coral solid;
+    color:rgb(233, 155, 127);
+    
+}
+
+.geslacht, .vrouw, .man{
+    display: block;
+    text-align: left;
+}
+.keuken{
+    width: 100%;
+    max-width: 400px;
+    padding:2px 5px;
+    margin-bottom: 5px;
+    border: 2px coral solid;
+    color:rgb(233, 155, 127);
+    
+}
+
+
+.keuken, .frans, .italiaans, .spaans, .arabisch{
+    display: block;
+    text-align: left;
+
+}
+
+.texterea{ 
+    
+    width: 100%;
+    max-width: 400px;
+    padding:2px 5px;
+    margin-bottom: 5px;
+    border: 2px coral solid;
+    color:rgb(233, 155, 127);
+}
+   
+.upload1{
+    padding-top: 5px;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+
+}
+
+
+.upload2{
+  width: 100%;
+margin-top: 5px;
+margin-bottom: 5px;
+background-color:rgb(243, 212, 201);
+ 
+}
+
+.submit, .reset{
+    align-items: center;
+    padding:2px 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border: 2px coral solid;
+    color:rgb(236, 121, 78);
+    background-color: rgb(250, 230, 223);
+}
+
+.blogcontainer1 > div > h3{
+margin:0;
+padding:0;
+font-size: 25px;
+text-align: center;
+}
+
+.imgspag{
+    width: 100%;
+    height: auto;
+    max-height: 70%;
+}
+.blogcontainer1{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    flex-grow: 1;
+    max-width: 1024px;
+    height: 1000px;
+   margin: auto;
+    border: rgb(209, 179, 47) solid 5px;
+}
+
+.blogpost1, .blogpost1a, .blogpost2 { 
+    max-width: 512px;
+    width: 48%;
+    margin-top: 1px;
+    border-top:  rgb(209, 179, 47) solid;
+    border-bottom:rgb(209, 179, 47) solid;  
+}
+
+.blogpost1, .blogpost1a { 
+    margin-left: 1px;
+    height: 230px;
+    border-left:  rgb(209, 179, 47) solid;   
+}
+
+.blogpost1a{
+   flex-grow: 1;
+}
+
+.blogpost2 {
+    align-self: flex-end; 
+    flex-grow: 2;
+    height: 230px; 
+    margin-right: 1px;
+    border-right:  rgb(209, 179, 47) solid;
+    border-left:  rgb(209, 179, 47) solid;    
+}
+
+
+@media screen and (min-width: 1000px) {
+    body{
+        background-color: yellow;}
+
+    header{
+        width: 100%;
+    }
+           
+    section{
+        width: 70%;
+        float: left;
+        display: inline;
+        box-sizing: border-box;
+    }
+    section{
+        border-right: 5px solid rgb(223, 104, 104);
+    }
+       
+aside{
+    width: 30%;
+    float: right;
+    text-align: center;
+    align-items: center;
+    display:inline;
+    box-sizing: border-box;
+
+}
+
+  footer.about{
+      clear: both;
+      background-color: burlywood;
+      width: 100%;
+     }  
+
+
+     .name, .surname, .telefoonnummer, .colorpicke, .email{
+         width: 800px;
+         height: 25px;
+         margin-bottom: 15px;
+
+     }
+     
+
+     .leeftijdduo > label{
+       
+        background-color: rgb(247, 243, 223);
+        font-size: 14px;
+     }
+
+        .leeftijd{
+            max-width: 800px;
+            width: 65%;
+            height: 25px;
+            margin-bottom: 15px;
+        }
+
+     
+            
+
+        .geboortedatumduo > label{
+         
+            background-color: rgb(247, 243, 223);
+            font-size: 14px;
+        }
+        
+
+        .geboortedatum{
+            max-width: 800px;
+            width: 65%;
+            height: 25px;
+            margin-bottom: 15px;
+        }
+
+        .geslacht{
+          width: 800px;
+          font-size: 14px;
+          background-color: rgb(247, 243, 223);
+            
+        }
+        
+        .keuken{
+            background-color: rgb(247, 243, 223);
+            max-width: 800px;
+           font-size: 14px;
+        }
+
+    
+        .texterea{ 
+        	width: 100%;
+            max-width: 800px;
+            
+        }
+
+
+        .upload1{
+            padding-top: 5px;
+            width: 100%;
+            max-width: 800px;
+            text-align: left;
+            font-size: 14px;
+            background-color:rgb(247, 243, 223);
+        
+        }
+        
+        
+        .upload2{
+          width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        
+         
+        }
+           
+    .submit{
+        width: 100px;
+        height: 25px;
+        margin-bottom: 15px;
+    }
+}
