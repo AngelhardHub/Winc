@@ -1,0 +1,99 @@
+
+.page-container > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: chartreuse;
+   
+ }
+ 
+ .site-header{
+    background-color: rgb(57, 117, 34);
+     
+ }
+ 
+ .site-main{
+     background-color: rgb(78, 151, 49);
+     justify-content: center;
+ }
+ 
+ .widget-area{
+     background-color: rgb(93, 175, 60);
+     
+ }
+ 
+ .site-footer{ background-color: rgb(57, 117, 34);
+ }
+
+
+.page-container{
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 8fr 4fr 1fr;
+    grid-template-areas: 
+    "h h h"
+    "m m m"
+    "w w w"
+    "f f f";
+
+}
+
+.site-header{
+    grid-area: h;
+
+}
+
+.site-main{
+    grid-area: m;
+}
+
+.widget-area{
+    grid-area: w;
+}
+
+.site-footer{
+    grid-area: f;
+}
+
+@media screen and (min-width: 800px){
+
+    .page-container{
+        display: grid;
+        height: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 8fr 4fr 1fr;
+        grid-template-areas: 
+        "h m m"
+        "h m m"
+        "h w w"
+        "h f f";
+    }
+
+    .site-footer{
+        background-color: rgb(214, 247, 181);
+            }
+        
+
+    
+}
+
+@media screen and (min-width: 1100px){
+
+    .page-container{
+        display: grid;
+        height: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 8fr 4fr 1fr;
+        grid-template-areas: 
+        "h m w"
+        "h m w"
+        "h m w"
+        "h f w";
+    }
+
+        .site-footer{
+        background-color: rgb(214, 247, 181);
+        }
+    
+}
