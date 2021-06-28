@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div[class^="card_container"]{
+    display: grid;
+    margin: 5px;
+    width: 420px;
+    height: 238.86px;
+    border: solid 2px rgb(207, 206, 206);
+    border-radius: 12px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "header"
+    "main"
+    "form";
+}
+div[class^="header"]{
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px; 
+}
+div[class^="name_text"] h1,
+div[class^="name_text"] p{
+    margin: 0;
+    padding: 0;  
+    margin-left: 10px;
+}
+div[class^="name_text"] h1{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -1px;
+    font-size: 25px;
+}
+div[class^="name_text"]  > p{
+    font-family:'PT Sans', sans-serif;
+    font-size: 24px;   
+    font-weight:500;
+    color:#aaa9a9;
+}
+div[class^="header"] img{
+    width: 55px;
+    height: 55px;
+    margin-right: 20px;
+}
+div[class^="main"]{
+    grid-area: main;
+    font-family:'PT Sans', sans-serif;
+    letter-spacing: -1px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 22.5px;   
+    font-weight:500;
+    color:rgb(102, 101, 101);
+}
+.main2 p{
+    display: inline;
+}
+.bold{
+    display: inline;
+    font-weight: bold;
+}
+.buttons{
+    grid-area: form;
+    display: flex;
+    border-top: 1px solid rgb(235, 233, 233);
+    justify-content: center;
+    align-items: center;  
+}
+button[type="button"]{
+    font-size: 100%;
+    font-family: inherit;
+    width: 45%;
+    height: 60%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    background-color: white;
+    font-family:'PT Sans', sans-serif;
+    font-size: 20px;
+}
+button[name="approve"]{   
+    color: rgb(33, 186, 69);
+    border: 2px solid  rgb(33, 186, 69);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-right: none;
+}
+button[name="decline"]{
+    border-bottom-right-radius: 5px;
+    border: 2px solid rgb(219, 40, 40);
+    color: rgba(219, 40, 40);
+    border-top-right-radius: 5px;
+}
