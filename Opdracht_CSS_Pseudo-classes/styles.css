@@ -1,0 +1,44 @@
+
+.nav1 li:first-child a:hover{
+    color: lightblue;
+    font-weight:bold;
+}
+.nav1 li:nth-child(2) a:active{
+    color:red;
+    font-style: italic;
+}
+.nav1 li:last-child a:visited{
+    color: yellow;
+}
+.nav2{
+    margin:0;
+    padding:0;
+}
+.nav2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    background-color:darkblue; 
+}
+.nav2 li{
+    list-style: none;
+    margin: 20px;
+}
+.nav2 a{
+    color:darkkhaki;
+    font-weight:900;
+}
+.nav2 a:hover{
+    background-color: lightblue;
+}
+.current_page{
+    background-color:rgb(102, 102, 172);
+    margin-top: 100px;
+}
+input[value="search"]{
+    color:darkblue
+}
+input:focus{
+    border:10px aqua solid;
+
+}
